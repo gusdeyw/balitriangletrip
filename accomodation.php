@@ -5,23 +5,21 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
   <section>
-    <div class="bg-black/40 absolute w-full h-[429px] flex items-center">
-      <div class="px-[125px] flex items-center">
-        <div class="flex-initial w-3/5">
-          <h1 class="font-extrabold text-[64px] text-white mb-4">Accomodation</h1>
-          <p class="text-white mb-7 text-base">Immerse yourself in unparalleled comfort and opulence when you choose to enjoy our luxurious accommodations. Each space is designed to provide the utmost in relaxation and sophistication, ensuring your stay is nothing short of extraordinary.</p>
-        </div>
+    <div class="px-[125px] bg-black/50 absolute w-full h-[429px] flex items-center">
+      <div class="w-1/2">
+        <h1 class="font-extrabold text-[64px] text-white mb-4">Accomodation</h1>
+        <p class="text-white mb-7 text-base">Immerse yourself in unparalleled comfort and opulence when you choose to enjoy our luxurious accommodations. Each space is designed to provide the utmost in relaxation and sophistication, ensuring your stay is nothing short of extraordinary.</p>
       </div>
     </div>
     <img src="public/images/pexels-asad-photo-maldives-3155666.jpg" alt="" class="w-full h-[429px] object-cover">
   </section>
   <main>
     <div class="px-[125px] flex pt-[87px] pb-[63px]">
-      <div class="">
+      <div class="flex-initial">
         <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-thorsten-technoman-338504.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-thorsten-technoman-338504.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
@@ -44,8 +42,8 @@
             </div>
           </article>
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-max-rahubovskiy-5997996.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-max-rahubovskiy-5997996.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
@@ -70,8 +68,8 @@
         </div>
         <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-max-rahubovskiy-6527069.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-max-rahubovskiy-6527069.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
@@ -94,8 +92,8 @@
             </div>
           </article>
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-pixabay-53610.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-pixabay-53610.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
@@ -120,8 +118,8 @@
         </div>
         <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-maria-orlova-4946918.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-maria-orlova-4946918.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
@@ -144,8 +142,8 @@
             </div>
           </article>
           <article>
-            <div class=" w-[347px]">
-              <img src="public/images/pexels-max-rahubovskiy-7061663.jpg" alt="" class="h-[261px] object-cover">
+            <div class=" w-[400px]">
+              <img src="public/images/pexels-max-rahubovskiy-7061663.jpg" alt="" class="h-[314px] object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
                   <i class="fa-solid fa-star text-[#FFA500] text-1"></i>

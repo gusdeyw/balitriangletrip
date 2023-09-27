@@ -5,19 +5,15 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
   <section>
-    <div class="bg-black/40 absolute w-full h-screen flex items-center">
-      <div class="px-[125px] flex items-center">
-        <div class="flex-initial w-3/5">
+    <div class="bg-black/50 absolute w-full h-screen flex items-center">
+      <div class="px-[125px] grid grid-cols-2 items-center">
+        <div class="mr-5">
           <h1 class="font-extrabold text-[64px] text-white mb-4">Bali Triangle Trip</h1>
-          <p class="text-white mb-7 text-xl">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
+          <p class="text-white mb-7 text-xl text-justify">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
           <button class="bg-[#1A7472] font-bold w-[146px] h-[45px] text-white">Book Now</button>
         </div>
-        <div class="flex-initial w-2/5">
-          <div class="flex justify-center">
-            <div class="h-[355px] w-[258px]">
-              <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="h-[355px] w-[258px] object-cover">
-            </div>
-          </div>
+        <div class="flex justify-center ml-[130px]">
+            <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="h-[355px] w-[258px] object-cover">
         </div>
       </div>
     </div>

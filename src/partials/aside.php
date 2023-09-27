@@ -1,4 +1,4 @@
-<aside>
+<aside class="flex-initial w-[295px]">
   <section>
     <form action="">
       <div class="flex w-full">
