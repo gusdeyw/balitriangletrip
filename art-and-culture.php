@@ -11,7 +11,7 @@
         <p class="text-white mb-7 text-base">Get ready for exhilarating adventures as you explore Bali's diverse landscapes. From surfing the legendary waves of Uluwatu to trekking through emerald rice terraces in Ubud and snorkeling amidst vibrant coral reefs, our curated activities promise an adrenaline rush and deep connection with nature.</p>
       </div>
     </div>
-    <img src="public/images/pexels-asad-photo-maldives-3155666.jpg" alt="" class="w-full h-[429px] object-cover">
+    <img src="public/images/balinese-people-traditional-clothes-during-religious-ceremony-pura-taman-ayun-temple-bali-indonesia.jpg" alt="" class="w-full h-[429px] object-cover">
   </section>
   <main>
     <div class="px-[125px] pt-[87px] pb-[103px]">

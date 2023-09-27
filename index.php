@@ -5,7 +5,7 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
   <section>
-    <div class="bg-black/50 absolute w-full h-screen flex items-center">
+    <div class="bg-black/30 absolute w-full h-screen flex items-center">
       <div class="px-[125px] grid grid-cols-2 items-center">
         <div class="mr-5">
           <h1 class="font-extrabold text-[64px] text-white mb-4">Bali Triangle Trip</h1>
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <img src="public/images/pexels-daniel-torobekov-5277705.jpg" alt="" class="w-full h-screen">
+    <img src="public/images/comingsoonj.jpg" alt="" class="w-full h-screen object-cover">
   </section>
   <section>
     <div class="grid grid-cols-2 px-[125px] pt-[116px] pb-[114px] flex">
