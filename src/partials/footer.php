@@ -75,3 +75,9 @@
     <!-- </div> -->
   <!-- </div> -->
 </footer>
+<script defer>
+    window.addEventListener('load', () => {
+        const preloader = document.getElementById('preloader');
+        preloader.style.display = 'none';
+    });
+</script>

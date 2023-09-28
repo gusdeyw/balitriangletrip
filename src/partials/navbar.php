@@ -1,3 +1,4 @@
+<?php include("src/partials/preloader.php") ?>
 <header>
   <nav class="bg-black/20 w-full fixed z-10">
     <div class="px-[125px] h-20 flex justify-between items-center">
