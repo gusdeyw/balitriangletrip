@@ -1,3 +1,5 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Almarai:wght@400;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

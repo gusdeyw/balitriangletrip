@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="w-full h-screen bg-cover bg-center pt-52" style="background-image: url(public/images/comingsoonj.jpg);">
+    <div class="bg-[#1A7472] w-full h-screen bg-cover bg-center pt-52" style="background-image: url(public/images/comingsoon.jpg);">
         <div class="px-[125px] grid grid-cols-2 items-center">
             <div class="mr-5">
                 <h1 class="font-extrabold text-[64px] text-white mb-4">Bali Triangle Trip</h1>

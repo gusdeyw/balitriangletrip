@@ -7,42 +7,42 @@
       </div>
     </form>
     <div class="bg-white py-4 px-[18px] mt-[30px]">
-      <p class="text-[#1A7472] font-bold text-sm">Location</p>
+      <p class="font-['almarai'] text-[#1A7472] font-bold text-sm">Location</p>
       <div>
         <input type="checkbox" id="klungkung">
-        <label for="klungkung" class="text-[#929191] text-[15px]">Klungkung</label>
+        <label for="klungkung" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Klungkung</label>
       </div>
       <div>
         <input type="checkbox" id="gianyar">
-        <label for="gianyar" class="text-[#929191] text-[15px]">Gianyar</label>
+        <label for="gianyar" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Gianyar</label>
       </div>
       <div>
         <input type="checkbox" id="badung">
-        <label for="badung" class="text-[#929191] text-[15px]">Badung</label>
+        <label for="badung" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Badung</label>
       </div>
       <div>
         <input type="checkbox" id="jimbaran">
-        <label for="jimbaran" class="text-[#929191] text-[15px]">Jimbaran</label>
+        <label for="jimbaran" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Jimbaran</label>
       </div>
       <div>
         <input type="checkbox" id="buleleng">
-        <label for="buleleng" class="text-[#929191] text-[15px]">Buleleng</label>
+        <label for="buleleng" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Buleleng</label>
       </div>
       <div>
         <input type="checkbox" id="bangli">
-        <label for="bangli" class="text-[#929191] text-[15px]">Bangli</label>
+        <label for="bangli" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Bangli</label>
       </div>
       <div>
         <input type="checkbox" id="canggu">
-        <label for="canggu" class="text-[#929191] text-[15px]">Canggu</label>
+        <label for="canggu" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Canggu</label>
       </div>
       <div>
         <input type="checkbox" id="kuta">
-        <label for="kuta" class="text-[#929191] text-[15px]">Kuta</label>
+        <label for="kuta" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Kuta</label>
       </div>
       <div>
         <input type="checkbox" id="legian">
-        <label for="legian" class="text-[#929191] text-[15px]">Legian</label>
+        <label for="legian" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Legian</label>
       </div>
     </div>
   </section>
