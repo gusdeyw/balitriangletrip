@@ -6,7 +6,7 @@
   <?php include("src/partials/navbar.php") ?>
   <section>
     <!-- bg-black/30  -->
-    <div class="bg-[#23535F]/80 px-[125px] pt-20 h-screen bg-cover bg-center flex items-center" style="background-image:url(public/images/comingsoon.jpg);">
+    <div class="xl:px-[125px] 2xl:px-[225px] pt-20 h-screen bg-cover bg-center flex items-center" style="background-image:url('public/images/comingsoon.jpg');">
       <div class="">
         <div class="grid grid-cols-3 items-center">
           <div class="col-span-2">
@@ -18,16 +18,15 @@
           </div>
           <!--  ml-[130px] -->
           <div class="col-span-1 flex justify-end">
-            <!--  h-[365px] 2xl:h-[680px] w-[268px] 2xl:w-[496px] -->
-            <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="h-[365px] w-[268px] object-cover shadow-[0px_4px_19px_18px_rgba(0,0,0,0.3)]">
+            <!--  h-[365px]  w-[268px] 2xl:h-[680px]2xl:w-[496px] -->
+            <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="xl:h-[385px] xl:w-[288px] 2xl:h-[485px] 2xl:w-[388px] object-cover shadow-[0px_4px_19px_18px_rgba(0,0,0,0.3)]">
           </div>
         </div>
       </div>
     </div>
-    <!-- <img src="public/images/comingsoonj.jpg" alt="" class="w-full h-screen object-cover"> -->
   </section>
   <section>
-    <div class="grid grid-cols-2 px-[125px] pt-[116px] pb-[114px]">
+    <div class="grid grid-cols-2 xl:px-[125px] 2xl:px-[225px] pt-[116px] pb-[114px]">
       <div>
         <div class="mb-4">
           <p class="text-4xl text-[#1A7472] font-['allan']">The Ultimate Exprience</p>
@@ -38,8 +37,8 @@
       </div>
       <div>
         <div class="flex justify-end">
-          <img src="public/images/pexels-oleksandr-p-2166608.jpg" alt="" class="w-[217px] h-[302px] mr-4 object-cover">
-          <img src="public/images/pexels-oleksandr-p-2100804.jpg" alt="" class="w-[217px] h-[302px] object-cover">
+          <img src="public/images/pexels-oleksandr-p-2166608.jpg" alt="" class="xl:w-[217px] xl:h-[302px] 2xl:w-[317px] 2xl:h-[402px] mr-4 object-cover">
+          <img src="public/images/pexels-oleksandr-p-2100804.jpg" alt="" class="xl:w-[217px] xl:h-[302px] 2xl:w-[317px] 2xl:h-[402px] object-cover">
         </div>
       </div>
     </div>
@@ -55,19 +54,19 @@
       <div class="flex justify-center">
         <div class="grid grid-cols-3 gap-4">
           <div class="">
-            <img src="public/images/pexels-jonathan-borba-5563472.jpg" alt="" class="w-[328px] h-[302px] object-cover">
+            <img src="public/images/pexels-jonathan-borba-5563472.jpg" alt="" class="xl:w-[328px] xl:h-[302px] 2xl:w-[410px] 2xl:h-[384px] object-cover">
             <div class="bg-[#1A7472] h-[34px] flex items-center justify-center">
               <p class="font-['almarai'] font-bold text-white">Accomodation</p>
             </div>
           </div>
           <div class="">
-            <img src="public/images/pexels-agus-nanda-15088860.jpg" alt="" class="w-[328px] h-[302px] object-cover">
+            <img src="public/images/pexels-agus-nanda-15088860.jpg" alt="" class="xl:w-[328px] xl:h-[302px] 2xl:w-[410px] 2xl:h-[384px] object-cover">
             <div class="bg-[#1A7472] h-[34px] flex items-center justify-center">
               <p class="font-['almarai'] font-bold text-white">Art & Culture</p>
             </div>
           </div>
           <div class="">
-            <img src="public/images/pexels-arthouse-studio-4571926.jpg" alt="" class="w-[328px] h-[302px] object-cover">
+            <img src="public/images/pexels-arthouse-studio-4571926.jpg" alt="" class="xl:w-[328px] xl:h-[302px] 2xl:w-[410px] 2xl:h-[384px] object-cover">
             <div class="bg-[#1A7472] h-[34px] flex items-center justify-center">
               <p class="font-['almarai'] font-bold text-white">Activity</p>
             </div>

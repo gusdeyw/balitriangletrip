@@ -1,7 +1,7 @@
 <?php include("src/partials/preloader.php") ?>
 <header>
   <nav id="navbar" class="bg-black/20 w-full fixed z-10">
-    <div class="px-[125px] h-20 flex justify-between items-center">
+    <div class="xl:px-[125px] 2xl:px-[225px] h-20 flex justify-between items-center">
       <div>
         <!-- <img src="../public/" alt=""> -->
         <p class="navbar-link font-['almarai'] font-extrabold text-white text-xl">Logo Triangle Trip</p>

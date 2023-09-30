@@ -7,10 +7,23 @@
   <style>
     .cs-bg::before {
       content: "";
-      background-color: rgba(35, 83, 95, 0.5);
+      background-color: rgba(35, 83, 95, 0.88);
       position: absolute;
       width: 100%;
       height: 100%;
+    }
+    .cs-banner-bg::before  {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.67);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .content-img::before {
+      content: "";
+      width: 100%;
+      height: auto;
+      position: absolute;
     }
   </style>
 </head>

@@ -1,6 +1,6 @@
 <section>
   <!-- TODO: ubah jadikan padding -->
-  <div class="px-[125px] flex justify-center mb-[54px]">
+  <div class="xl:px-[125px] 2xl:px-[225px] flex justify-center mb-[54px]">
     <div class="h-52 w-full bg-[#1A7472] px-[37px] pt-[27px] pb-[49px]">
       <p class="font-['allan'] text-white text-xl">Our Newsletter</p>
       <div class="flex justify-between mb-[26px]">
@@ -14,7 +14,7 @@
       <div class="w-full">
         <form action="">
           <div class="flex">
-            <input type="text" class="py-2 flex-initial w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
+            <input type="text" placeholder="Enter your email" class="p-2 flex-initial w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
             <div class="ml-[31px]">
               <button class="font-['almarai'] font-bold bg-white text-[#1A7472] px-7 py-2">Submit</button>
             </div>
@@ -30,8 +30,7 @@
   <!-- <div class="relative"> -->
     <div class="cs-bg relative w-full bg-cover bg-center" style="background-image:url(public/images/pexels-stijn-dijkstra-2499750.jpg)">
     <div class="relative">
-      <!--    -->
-      <div class="h-auto pt-[66px] pb-[29px] px-[125px]">
+      <div class="h-auto pt-[66px] pb-[29px] xl:px-[125px] 2xl:px-[225px]">
         <div class="mb-[85px] grid grid-cols-4">
           <div class="">
             <p class="font-['almarai'] font-extrabold mb-[20px] text-white text-xl">Logo Triangle Trip</p>
@@ -77,11 +76,6 @@
       </div>
     </div>
     </div>
-  <!-- </div> -->
-  <!-- <div class=""> -->
-  <!-- <img src="public/images/pexels-stijn-dijkstra-2499750.jpg" alt="" class="h-[476px] w-full"> -->
-  <!-- </div> -->
-  <!-- </div> -->
 </footer>
 <script defer>
   window.addEventListener('load', () => {

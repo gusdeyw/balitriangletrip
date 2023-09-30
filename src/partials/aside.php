@@ -1,8 +1,8 @@
-<aside class="flex-initial w-[295px]">
+<aside class="">
   <section>
     <form action="">
       <div class="flex w-full">
-        <input type="text" class="w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
+        <input type="text" class="p-2 w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
         <button class="bg-[#1A7472] py-1 px-3"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
       </div>
     </form>
