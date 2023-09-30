@@ -5,171 +5,174 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
   <section>
-    <div class="px-[125px] bg-black/50 absolute w-full h-[429px] flex items-center">
-      <div class="w-1/2">
-        <h1 class="font-['almarai'] font-extrabold text-[64px] text-white mb-4">Activity</h1>
-        <p class="tracking-wider font-['almarai'] text-white mb-7 text-base">Get ready for exhilarating adventures as you explore Bali's diverse landscapes. From surfing the legendary waves of Uluwatu to trekking through emerald rice terraces in Ubud and snorkeling amidst vibrant coral reefs, our curated activities promise an adrenaline rush and deep connection with nature.</p>
+    <div class="cs-banner-bg relative w-full bg-cover bg-center" style="background-image: url(public/images/pexels-kachonk-adventure-17956745.jpg)">
+      <div class="relative">
+        <div class="md:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-auto pt-[115px] pb-[62px] flex items-center">
+          <div class="w-1/2">
+            <h1 class="font-['almarai'] font-extrabold md:text-[44px] lg:text-[55px] xl:text-[64px] text-white mb-4">Activity</h1>
+            <p class="tracking-wider font-['almarai'] text-white mb-7 md:text-lg xl:text-xl text-justify">Get ready for exhilarating adventures as you explore Bali's diverse landscapes. From surfing the legendary waves of Uluwatu to trekking through emerald rice terraces in Ubud and snorkeling amidst vibrant coral reefs, our curated activities promise an adrenaline rush and deep connection with nature.</p>
+          </div>
+        </div>
       </div>
     </div>
-    <img src="public/images/pexels-kachonk-adventure-17956745.jpg" alt="" class="w-full h-[429px] object-cover">
   </section>
   <main>
-    <div class="px-[125px] flex pt-[87px] pb-[63px]">
-      <div class="">
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-helena-lopes-4453153.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+    <section>
+      <div class="md:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] flex pt-[87px] pb-[63px]">
+        <div class="w-[80%]">
+          <div class="grid grid-rows-3 gap-[30px]">
+            <div class="grid grid-cols-2 gap-7 mr-7">
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-helena-lopes-4453153.jpg')">
                 </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
                   </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Hikking</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
                   </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
                 </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
+              </article>
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-tatiana-syrikova-3932687.jpg')">
+                </div>
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                  </div>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Trekking</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
+                  </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                </div>
+              </article>
             </div>
-          </article>
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-tatiana-syrikova-3932687.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+            <div class="grid grid-cols-2 gap-7 mr-7">
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-andrea-piacquadio-3771805.jpg')">
                 </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
                   </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Cycling</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
                   </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
                 </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
+              </article>
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-daniel-torobekov-5277705.jpg')">
+                </div>
+                <!-- <img src="public/images/pexels-daniel-torobekov-5277705.jpg" alt="" class="h-1610px]lgl:h-[261px] 2xl:h-[3461x] w-auto object-cover"> -->
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                  </div>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Surf</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
+                  </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                </div>
+              </article>
             </div>
-          </article>
+            <div class="grid grid-cols-2 gap-7 mr-7">
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-daniel-torobekov-6961669.jpg')">
+                </div>
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                  </div>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Diving</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
+                  </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                </div>
+              </article>
+              <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
+                <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-alexandre-saraiva-carniato-1644724.jpg')">
+                </div>
+                <div class="py-5 px-6 bg-white">
+                  <div class="mb-3">
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                    <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
+                  </div>
+                  <div class="mb-[11px] flex w-full justify-between">
+                    <div>
+                      <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Surfing</h1>
+                    </div>
+                    <div class="">
+                      <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
+                    </div>
+                  </div>
+                  <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
+                  <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-andrea-piacquadio-3771805.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
-                  </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
-                  </div>
-                </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
-            </div>
-          </article>
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-daniel-torobekov-5277705.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
-                  </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
-                  </div>
-                </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
-            </div>
-          </article>
-        </div>
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-daniel-torobekov-6961669.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
-                  </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
-                  </div>
-                </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
-            </div>
-          </article>
-          <article>
-            <div class="w-[347px]">
-              <img src="public/images/pexels-alexandre-saraiva-carniato-1644724.jpg" alt="" class="h-[261px] object-cover">
-              <div class="py-5 px-6 bg-white">
-                <div class="mb-3">
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                  <i class="fa-solid fa-star text-[#FFA500] text-1"></i>
-                </div>
-                <div class="mb-[11px] flex w-full justify-between">
-                  <div>
-                    <h1 class="font-['almarai'] font-bold text-xl text-[#1A7472]">Alila Villa</h1>
-                  </div>
-                  <div class="">
-                    <p class="font-['almarai'] font-bold text-xl text-[#53581E]">$160/night</p>
-                  </div>
-                </div>
-                <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
-                <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
-              </div>
-            </div>
-          </article>
+        <div class="w-[20%] relative">
+          <?php include("src/partials/aside.php") ?>
         </div>
       </div>
-
-      <?php include("src/partials/aside.php") ?>
-    </div>
+    </section>
   </main>
   <?php include("src/partials/footer.php") ?>
 </body>

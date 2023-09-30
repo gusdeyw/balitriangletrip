@@ -27,23 +27,23 @@
         <div class="grid grid-rows-3 gap-5">
           <div class="">
             <div class="grid grid-cols-3 gap-[22px]">
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/pexels-bozan-güzel-18225568.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/young-female-actress-wearing-beautiful-ancient-costumes-ancient-monuments-dramatic-style-perform-legend-love-popular-story-thai-isan-folktale-called-phadaeng-nang-ai-acient-site.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/magic-mushrooms-collage-concept.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/pexels-bozan-güzel-18225568.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/young-female-actress-wearing-beautiful-ancient-costumes-ancient-monuments-dramatic-style-perform-legend-love-popular-story-thai-isan-folktale-called-phadaeng-nang-ai-acient-site.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/magic-mushrooms-collage-concept.jpg')"></div>
             </div>
           </div>
           <div class="">
             <div class="grid grid-cols-3 gap-[22px]">
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/bhaumik-kaji-R3rFY78bXVY-unsplash.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/prabu-panji-SXM0NC45wU0-unsplash.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/pexels-kachonk-adventure-17956745.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/bhaumik-kaji-R3rFY78bXVY-unsplash.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/prabu-panji-SXM0NC45wU0-unsplash.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/pexels-kachonk-adventure-17956745.jpg')"></div>
             </div>
           </div>
           <div class="">
             <div class="grid grid-cols-3 gap-[22px]">
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/rozan-naufal-0c9aTOCTDTw-unsplash.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/alief-priyanto-mvaryZ3NSgo-unsplash.jpg')"></div>
-              <div class="cs-content-img bg-cover bg-center relative md:h-[237px] lg:h-[337px] xl:h-[437px] 2xl:h-[537px]" style="background-image: url('public/images/ruben-hutabarat-VvJ0DL_PLR8-unsplash.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/rozan-naufal-0c9aTOCTDTw-unsplash.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/alief-priyanto-mvaryZ3NSgo-unsplash.jpg')"></div>
+              <div class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] bg-cover bg-center relative h-[340px] md:h-[347px] lg:h-[447px] xl:h-[547px]" style="background-image: url('public/images/ruben-hutabarat-VvJ0DL_PLR8-unsplash.jpg')"></div>
             </div>
           </div>
         </div>

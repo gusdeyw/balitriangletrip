@@ -19,11 +19,11 @@
       width: 100%;
       height: 100%;
     }
-    .cs-content-img::after {
+    /* .cs-content-img::after {
       content: "";
       width: 100%;
       height: auto;
       position: absolute;
-    }
+    } */
   </style>
 </head>
