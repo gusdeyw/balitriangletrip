@@ -5,25 +5,23 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
   <section>
-    <div class="cs-banner-bg relative w-full bg-cover bg-center" style="background-image: url('public/images/pexels-asad-photo-maldives-3155666.jpg')">
+    <div class="cs-banner-bg relative w-full bg-cover bg-center" style="background-image: url(public/images/pexels-asad-photo-maldives-3155666.jpg)">
       <div class="relative">
-        <div class="xl:px-[125px] 2xl:px-[225px] h-auto pt-[115px] pb-[62px] flex items-center">
+        <div class="md:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-auto pt-[115px] pb-[62px] flex items-center">
           <div class="w-1/2">
-            <h1 class="font-['almarai'] font-extrabold text-[64px] text-white mb-4">Accomodation</h1>
-            <p class="tracking-wider font-['almarai'] text-white mb-7 text-base">Immerse yourself in unparalleled comfort and opulence when you choose to enjoy our luxurious accommodations. Each space is designed to provide the utmost in relaxation and sophistication, ensuring your stay is nothing short of extraordinary.</p>
+            <h1 class="font-['almarai'] font-extrabold md:text-[44px] lg:text-[55px] xl:text-[64px] text-white mb-4">Accomodation</h1>
+            <p class="tracking-wider font-['almarai'] text-white mb-7 md:text-lg xl:text-xl text-justify">Immerse yourself in unparalleled comfort and opulence when you choose to enjoy our luxurious accommodations. Each space is designed to provide the utmost in relaxation and sophistication, ensuring your stay is nothing short of extraordinary.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <main>
-    <div class="xl:px-[125px] 2xl:px-[225px] flex pt-[87px] pb-[63px]">
-      <div class="w-[80%]">
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <!-- screen resolution 90% :w-[400px] -->
-            <!-- <div class=""> -->
-              <!-- h-[314px] -->
+    <section>
+      <div class="md:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] flex pt-[87px] pb-[63px]">
+        <div class="w-[80%]">
+          <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
+            <article>
               <img src="public/images/pexels-thorsten-technoman-338504.jpg" alt="" class="h-auto object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
@@ -44,11 +42,11 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
-          <article>
-            <!-- xl:w-[347px] 2xl:w-[447px] -->
-          <!-- <div class="w-"> -->
+              <!-- </div> -->
+            </article>
+            <article>
+              <!-- xl:w-[347px] 2xl:w-[447px] -->
+              <!-- <div class="w-"> -->
               <!-- xl:h-[261px] 2xl:h-[361px]  -->
               <img src="public/images/pexels-max-rahubovskiy-5997996.jpg" alt="" class="h-auto w-auto object-cover">
               <div class="py-5 px-6 bg-white">
@@ -70,12 +68,12 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
-        </div>
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
+              <!-- </div> -->
+            </article>
+          </div>
+          <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
+            <article>
+              <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
               <img src="public/images/pexels-max-rahubovskiy-6527069.jpg" alt="" class="h-auto w-auto object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
@@ -96,10 +94,10 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
-          <article>
-            <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
+              <!-- </div> -->
+            </article>
+            <article>
+              <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
               <img src="public/images/pexels-pixabay-53610.jpg" alt="" class="h-auto w-auto object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
@@ -120,12 +118,12 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
-        </div>
-        <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
-          <article>
-            <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
+              <!-- </div> -->
+            </article>
+          </div>
+          <div class="grid grid-cols-2 gap-7 mr-7 mb-[30px]">
+            <article>
+              <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
               <img src="public/images/pexels-maria-orlova-4946918.jpg" alt="" class="h-auto w-auto object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
@@ -146,10 +144,10 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
-          <article>
-            <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
+              <!-- </div> -->
+            </article>
+            <article>
+              <!-- <div class="xl:w-[347px] 2xl:w-[447px]"> -->
               <img src="public/images/pexels-max-rahubovskiy-7061663.jpg" alt="" class="h-auto w-auto object-cover">
               <div class="py-5 px-6 bg-white">
                 <div class="mb-3">
@@ -170,14 +168,15 @@
                 <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]">Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence. </p>
                 <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
               </div>
-            <!-- </div> -->
-          </article>
+              <!-- </div> -->
+            </article>
+          </div>
+        </div>
+        <div class="w-[20%] relative">
+          <?php include("src/partials/aside.php") ?>
         </div>
       </div>
-      <div class="w-[20%] relative">
-        <?php include("src/partials/aside.php") ?>
-      </div>
-    </div>
+    </section>
   </main>
   <?php include("src/partials/footer.php") ?>
 </body>

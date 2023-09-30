@@ -19,7 +19,7 @@
       width: 100%;
       height: 100%;
     }
-    .content-img::before {
+    .cs-content-img::after {
       content: "";
       width: 100%;
       height: auto;

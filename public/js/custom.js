@@ -1,7 +1,6 @@
 const navbar = document.getElementById('navbar')
 const navbarLinks = document.querySelectorAll('.navbar-link')
 window.onscroll = () => {
-  console.log(navbarLinks, 'navbar');
   if (Math.ceil(window.scrollY) > 0) {
     navbar.classList.add('bg-white')
     navbarLinks.forEach(element => {
