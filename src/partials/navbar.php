@@ -17,7 +17,7 @@
             <li class="mr-9"><a href="profile.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Profile</a></li>
           </ul>
         </div>
-        <button class="font-['almarai'] bg-[#1A7472] font-bold w-[146px] h-[45px] text-white">Book Now</button>
+        <a href="" class="text-sm lg:text-base font-['almarai'] bg-[#1A7472] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
       </div>
     </div>
   </nav>

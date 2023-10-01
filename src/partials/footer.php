@@ -35,7 +35,7 @@
           <div class="">
             <p class="font-['almarai'] font-extrabold mb-3 sm:mb-4 lg:mb-[20px] text-white sm:text-lg xl:text-xl">Logo Triangle Trip</p>
             <p class="text-sm lg:text-base tracking-wider font-['almarai'] mb-3 sm:mb-4 lg:mb-[20px] text-white">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
-            <button class="bg-[#1A7472] font-bold w-[146px] h-[45px] text-white">Book Now</button>
+            <button class="text-sm lg:text-base bg-[#1A7472] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</button>
           </div>
           <div class="mt-7 sm:mt-0 sm:flex sm:justify-center">
             <!-- <div class="grid grid-cols-2 sm:block"> -->

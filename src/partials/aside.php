@@ -3,7 +3,7 @@
     <form action="">
       <div class="flex w-full">
         <input type="text" class="p-2 w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
-        <button class="bg-[#1A7472] py-1 px-3"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+        <button class="text-sm lg:text-base bg-[#1A7472] py-1 px-3"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
       </div>
     </form>
     <div class="bg-white py-4 px-[18px] mt-[30px]">
