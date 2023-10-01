@@ -22,7 +22,7 @@
         <div class="mb-[65px] text-center">
           <p class="font-['allan'] text-2xl sm:text-3xl xl:text-4xl text-[#1A7472]">Explore</p>
           <h2 class="font-['almarai'] font-extrabold text-2xl sm:text-3xl xl:text-4xl text-[#1A7472] mb-[20px]">Our Services</h2>
-          <p class="font-['almarai'] tracking-wider text-[#283325] md:text-base xl:text-xl">Are your ready to embark on a journey filled with adventure, culture and relaxation?</p>
+          <p class="font-['almarai'] tracking-wider text-[#283325] xl:text-xl">Are your ready to embark on a journey filled with adventure, culture and relaxation?</p>
         </div>
         <div class="sm:grid sm:grid-rows-3 sm:gap-5">
           <div class="">
