@@ -1,12 +1,12 @@
-<aside class="">
+<aside>
   <section>
-    <form action="">
-      <div class="flex w-full">
+    <form action="" class="px-[18px] lg:px-0">
+      <div class="flex w-full ">
         <input type="text" class="p-2 w-full border-[1px] focus:outline-none active:outline-none border-[#1A7472] focus:border-[#1A7472] active:border-[#1A7472]" />
         <button class="text-sm lg:text-base bg-[#1A7472] py-1 px-3"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
       </div>
     </form>
-    <div class="bg-white py-4 px-[18px] mt-[30px]">
+    <div class="bg-white py-4 px-[18px] mt-3.5 lg:mt-[30px]">
       <p class="font-['almarai'] text-[#1A7472] font-bold text-sm">Location</p>
       <div>
         <input type="checkbox" id="klungkung">

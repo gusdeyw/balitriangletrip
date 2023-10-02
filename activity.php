@@ -17,12 +17,18 @@
         </div>
       </div>
     </section>
+    <div id="show-side-mob" class="fixed z-10 right-2">
+      <button type="button" value="true" class="bg-white w-[25px] lg:hidden shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] rounded-full text-base text-center"><i class="fa-xs fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div id="sidebar-mob" class="lg:hidden z-10 fixed top-20 h-full right-0 bg-white w-0 transition-all duration-1000 ease-out py-5 px-0 md:w-[25%]">
+      <?php include("src/partials/aside.php") ?>
+    </div>
     <section>
       <div class="px-7 sm:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] flex pt-[87px] pb-[63px]">
         <!-- w-[60%]  -->
-        <div class="w-full md:w-[80%]">
+        <div class="w-full lg:w-[75%]">
           <div class="sm:grid sm:grid-rows-3 sm:gap-[30px]">
-            <div class="sm:grid sm:grid-cols-2 sm:gap-7 md:mr-7">
+            <div class="sm:grid sm:grid-cols-2 sm:gap-7 lg:mr-7">
               <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
                 <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-helena-lopes-4453153.jpg')">
                 </div>
@@ -70,7 +76,7 @@
                 </div>
               </article>
             </div>
-            <div class="sm:grid sm:grid-cols-2 sm:gap-7 md:mr-7">
+            <div class="sm:grid sm:grid-cols-2 sm:gap-7 lg:mr-7">
               <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
                 <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-andrea-piacquadio-3771805.jpg')">
                 </div>
@@ -119,7 +125,7 @@
                 </div>
               </article>
             </div>
-            <div class="sm:grid sm:grid-cols-2 sm:gap-7 md:mr-7">
+            <div class="sm:grid sm:grid-cols-2 sm:gap-7 lg:mr-7">
               <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
                 <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('public/images/pexels-daniel-torobekov-6961669.jpg')">
                 </div>
@@ -169,7 +175,7 @@
             </div>
           </div>
         </div>
-        <div class="hidden md:block md:w-[20%] relative">
+        <div class="hidden lg:block md:w-[25%] relative">
           <?php include("src/partials/aside.php") ?>
         </div>
       </div>

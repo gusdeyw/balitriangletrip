@@ -18,7 +18,24 @@
           </ul>
         </div>
         <a href="" class="text-sm lg:text-base font-['almarai'] bg-[#1A7472] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
+        <button id="navbar-menu-mob" class="text-white ml-3 lg:hidden"><i class="fa-solid fa-bars"></i></button>
       </div>
     </div>
   </nav>
 </header>
+
+<div id="side-navbar" class="lg:hidden truncated h-screen py-7 bg-white right-0 fixed z-20 w-0 transition-all duration-1000 ease-out">
+  <div class="px-7">
+    <button id="close-side-navbar"><i class="fa-solid fa-x"></i></button>
+  </div>
+  <div id="side-navbar-mob-content" class="h-full px-7 flex items-center">
+    <ul class="text-center">
+      <li class="mb-2"><a href="index.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Home</a></li>
+      <li class="mb-2"><a href="accomodation.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Accomodation</a></li>
+      <li class="mb-2"><a href="activity.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Activity</a></li>
+      <li class="mb-2"><a href="art-and-culture.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Art & Culture</a></li>
+      <li class=""><a href="profile.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Profile</a></li>
+    </ul>
+  </div>
+
+</div>
