@@ -592,6 +592,10 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mb-9{
+  margin-bottom: 2.25rem;
+}
+
 .mb-\[11px\]{
   margin-bottom: 11px;
 }
@@ -630,6 +634,10 @@ video {
 
 .ml-\[130px\]{
   margin-left: 130px;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
 }
 
 .mr-2{
@@ -748,6 +756,18 @@ video {
   width: 100%;
 }
 
+.w-\[30px\]{
+  width: 30px;
+}
+
+.w-8{
+  width: 2rem;
+}
+
+.w-px{
+  width: 1px;
+}
+
 .flex-initial{
   flex: 0 1 auto;
 }
@@ -770,6 +790,12 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded-full{
@@ -834,6 +860,10 @@ video {
   padding: 0.625rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
@@ -869,9 +899,9 @@ video {
   padding-right: 18px;
 }
 
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.px-\[30\%\]{
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .py-2{
@@ -889,14 +919,24 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .py-\[17px\]{
   padding-top: 17px;
   padding-bottom: 17px;
 }
 
-.py-7{
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pb-\[103px\]{

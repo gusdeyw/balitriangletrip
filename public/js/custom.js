@@ -25,14 +25,14 @@ window.onscroll = () => {
       element.classList.add('text-[#283325]')
     });
     navbarMenuMob.classList.remove('text-white')
-    navbarMenuMob.classList.add('text-[#283325]')  
+    navbarMenuMob.classList.add('text-[#283325]')
   } else {
     navbar.classList.remove('bg-white')
     navbarLinks.forEach(element => {
       element.classList.remove('text-[#283325]')
       element.classList.add('text-white')
     });
-    navbarMenuMob.classList.remove('text-[#283325]')  
+    navbarMenuMob.classList.remove('text-[#283325]')
     navbarMenuMob.classList.add('text-white')
   }
 }
@@ -40,10 +40,8 @@ window.onscroll = () => {
 window.addEventListener('click', (event) => {
   if (navbarMenuMob.contains(event.target)) {
     sideNavbar.style.width = '100%'
-    sideNavbarMobContent.classList.add('justify-center')
   } else if (closeSideNavbar.contains(event.target)) {
     sideNavbar.style.width = '0'
-    sideNavbarMobContent.classList.remove('justify-center')
   } else if (showSideMob.contains(event.target)) {
     sidebarMob.style.width = '70%'
   } else if (!sidebarMob.contains(event.target)) {
@@ -51,5 +49,4 @@ window.addEventListener('click', (event) => {
     sidebarMob.style.paddingLeft = '0'
     sidebarMob.style.paddingRight = '0'
   }
-
 })

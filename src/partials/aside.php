@@ -1,3 +1,84 @@
+<?php
+$currentPath = '/accomodation.php';
+$actFields = [
+  [
+    "labelName" => "Adventure",
+    "id" => "adventure",
+  ],
+  [
+    "labelName" => "Water Playground",
+    "id" => "water-playground",
+  ],
+  [
+    "labelName" => "Vehicle Rent",
+    "id" => "vehicle-rent",
+  ],
+  [
+    "labelName" => "Walking Adventure",
+    "id" => "walking-adventure",
+  ],
+  [
+    "labelName" => "Cooking",
+    "id" => "cooking",
+  ],
+  [
+    "labelName" => "Hikking",
+    "id" => "hikking",
+  ],
+  [
+    "labelName" => "Healing",
+    "id" => "healing",
+  ],
+  [
+    "labelName" => "Kuta",
+    "id" => "kuta",
+  ],
+  [
+    "labelName" => "Legian",
+    "id" => "legian",
+  ]
+];
+
+$accFields = [
+  [
+    "labelName" => "Klungkung",
+    "id" => "klungkung",
+  ],
+  [
+    "labelName" => "Gianyar",
+    "id" => "gianyar",
+  ],
+  [
+    "labelName" => "Badung",
+    "id" => "badung",
+  ],
+  [
+    "labelName" => "Jimbaran",
+    "id" => "jimbaran",
+  ],
+  [
+    "labelName" => "Buleleng",
+    "id" => "buleleng",
+  ],
+  [
+    "labelName" => "Bangli",
+    "id" => "bangli",
+  ],
+  [
+    "labelName" => "Canggu",
+    "id" => "canggu",
+  ],
+  [
+    "labelName" => "Kuta",
+    "id" => "kuta",
+  ],
+  [
+    "labelName" => "Legian",
+    "id" => "legian",
+  ]
+];
+
+?>
 <aside>
   <section>
     <form action="" class="px-[18px] lg:px-0">
@@ -8,42 +89,21 @@
     </form>
     <div class="bg-white py-4 px-[18px] mt-3.5 lg:mt-[30px]">
       <p class="font-['almarai'] text-[#1A7472] font-bold text-sm">Location</p>
-      <div>
-        <input type="checkbox" id="klungkung">
-        <label for="klungkung" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Klungkung</label>
-      </div>
-      <div>
-        <input type="checkbox" id="gianyar">
-        <label for="gianyar" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Gianyar</label>
-      </div>
-      <div>
-        <input type="checkbox" id="badung">
-        <label for="badung" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Badung</label>
-      </div>
-      <div>
-        <input type="checkbox" id="jimbaran">
-        <label for="jimbaran" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Jimbaran</label>
-      </div>
-      <div>
-        <input type="checkbox" id="buleleng">
-        <label for="buleleng" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Buleleng</label>
-      </div>
-      <div>
-        <input type="checkbox" id="bangli">
-        <label for="bangli" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Bangli</label>
-      </div>
-      <div>
-        <input type="checkbox" id="canggu">
-        <label for="canggu" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Canggu</label>
-      </div>
-      <div>
-        <input type="checkbox" id="kuta">
-        <label for="kuta" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Kuta</label>
-      </div>
-      <div>
-        <input type="checkbox" id="legian">
-        <label for="legian" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]">Legian</label>
-      </div>
+      <?php if ($_SERVER['REQUEST_URI'] == $currentPath) : ?>
+        <?php foreach ($accFields as $acc) : ?>
+          <div class="flex items-center">
+            <input type="checkbox" class="mr-2" id="<?= $acc['id'] ?>">
+            <label for="<?= $acc['id'] ?>" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]"><?= $acc['labelName'] ?></label>
+          </div>
+        <?php endforeach ?>
+      <?php else : ?>
+        <?php foreach ($actFields as $act) : ?>
+          <div class="flex items-center">
+            <input type="checkbox" class="mr-2" id="<?= $act['id'] ?>">
+            <label for="<?= $act['id'] ?>" class="font-['almarai'] tracking-wider text-[#929191] text-[15px]"><?= $act['labelName'] ?></label>
+          </div>
+        <?php endforeach ?>
+      <?php endif ?>
     </div>
   </section>
 </aside>

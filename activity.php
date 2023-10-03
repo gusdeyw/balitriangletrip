@@ -67,7 +67,7 @@
                     <div>
                       <h1 class="font-['almarai'] font-bold text-lg lg:text-xl text-[#1A7472]">Trekking</h1>
                     </div>
-                    <div class="">
+                    <div>
                       <p class="font-['almarai'] font-bold text-lg lg:text-xl text-[#53581E]">$160/night</p>
                     </div>
                   </div>
