@@ -16,8 +16,9 @@
                 <a href="" class="text-sm lg:text-base bg-[#1A7472] font-['almarai'] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
               </div>
             </div>
-            <div class="sm:col-span-1 sm:flex sm:justify-center">
-              <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="hidden sm:h-[280px] lg:h-[340px] xl:h-[385px] xl:w-[288px] 2xl:h-[485px] 2xl:w-[388px] object-cover shadow-[0px_4px_19px_18px_rgba(0,0,0,0.3)]">
+            <!-- w-1/2 sm:w-full -->
+            <div class="hidden sm:w-full mt-7 sm:mt-0 sm:col-span-1 text-center sm:flex sm:justify-end">
+              <img src="public/images/pexels-oleksandr-p-2166559.jpg" alt="" class="sm:h-[280px] lg:h-[340px] xl:h-[385px] xl:w-[288px] 2xl:h-[485px] 2xl:w-[388px] object-cover shadow-[0px_4px_19px_18px_rgba(0,0,0,0.3)]">
             </div>
           </div>
         </div>
