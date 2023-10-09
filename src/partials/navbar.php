@@ -11,8 +11,8 @@
           <ul class="flex">
             <!--  underline-offset-4 -->
             <li class="mr-2"><a href="index.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Home</a></li>
-            <li class="mr-2"><a href="accomodation.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Accomodation</a></li>
-            <li class="mr-2"><a href="activity.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Activity</a></li>
+            <li class="mr-2"><a href="accomodation.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Accomodations</a></li>
+            <li class="mr-2"><a href="activity.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Activities</a></li>
             <li class="mr-2"><a href="art-and-culture.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Art & Culture</a></li>
             <li class="mr-9"><a href="profile.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Profile</a></li>
           </ul>
@@ -33,8 +33,8 @@
       <div class="w-full text-center">
         <ul class="mb-9 text-center">
           <li class="mb-2"><a href="index.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Home</a></li>
-          <li class="mb-2"><a href="accomodation.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Accomodation</a></li>
-          <li class="mb-2"><a href="activity.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Activity</a></li>
+          <li class="mb-2"><a href="accomodation.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Accomodations</a></li>
+          <li class="mb-2"><a href="activity.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Activities</a></li>
           <li class="mb-2"><a href="art-and-culture.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Art & Culture</a></li>
           <li class=""><a href="profile.php" class="text-[#9DA1A2] hover:text-[#1A7472] font-['almarai'] underline-offset-4 text-lg underline">Profile</a></li>
         </ul>
