@@ -17,10 +17,10 @@
         </div>
       </div>
     </section>
-    <div id="show-side-mob" class="fixed z-10 right-2">
+    <div id="show-side-mob" class="fixed z-10 right-2 hidden">
       <button type="button" value="true" class="bg-white w-[25px] lg:hidden shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] rounded-full text-base text-center"><i class="fa-xs fa-solid fa-magnifying-glass"></i></button>
     </div>
-    <div id="sidebar-mob" class="lg:hidden z-10 fixed top-20 h-full right-0 bg-white w-0 transition-all duration-1000 ease-out py-5 px-0 md:w-[25%]">
+    <div id="sidebar-mob" class="lg:hidden z-10 fixed top-20 h-full right-0 bg-white w-0 transition-all duration-1000 ease-out py-5 px-0">
       <?php include("src/partials/aside.php") ?>
     </div>
     <section>

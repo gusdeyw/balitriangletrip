@@ -26,6 +26,8 @@ window.onscroll = () => {
     });
     navbarMenuMob.classList.remove('text-white')
     navbarMenuMob.classList.add('text-[#283325]')
+    // show sidebar button
+    showSideMob.classList.remove('hidden')
   } else {
     navbar.classList.remove('bg-white')
     navbarLinks.forEach(element => {
@@ -34,6 +36,14 @@ window.onscroll = () => {
     });
     navbarMenuMob.classList.remove('text-[#283325]')
     navbarMenuMob.classList.add('text-white')
+    // show sidebar button
+    showSideMob.classList.add('hidden')
+  }
+
+  if (sidebarMob.style.width == '60%') {
+    sidebarMob.style.width = '0'
+    sidebarMob.style.paddingLeft = '0'
+    sidebarMob.style.paddingRight = '0'
   }
 }
 
@@ -43,10 +53,11 @@ window.addEventListener('click', (event) => {
   } else if (closeSideNavbar.contains(event.target)) {
     sideNavbar.style.width = '0'
   } else if (showSideMob.contains(event.target)) {
-    sidebarMob.style.width = '70%'
+    sidebarMob.style.width = '60%'
   } else if (!sidebarMob.contains(event.target)) {
     sidebarMob.style.width = '0'
     sidebarMob.style.paddingLeft = '0'
     sidebarMob.style.paddingRight = '0'
   }
 })
+//
