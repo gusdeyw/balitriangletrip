@@ -55,7 +55,7 @@
           <div class="mb-4 sm:mb-0 bg-cover bg-center relative pt-[100%]" style="background-image:url(public/images/pexels-jonathan-borba-5563472.jpg)">
             <div class="relative">
               <div class="bg-[#1A7472] h-[34px] flex items-center justify-center">
-                <p class="font-['almarai'] font-bold text-white">Accomodation</p>
+                <p class="font-['almarai'] font-bold text-white">Accommodation</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <?php
-$currentPath = '/accomodation.php';
+$currentPath = '/accommodation.php';
 $actFields = [
   [
     "labelName" => "Adventure",
