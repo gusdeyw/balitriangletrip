@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("src/partials/head.php") ?>
+<?php include("src/partials/head.php");
+$images = [
+  ['path' => 'public/images/pexels-thorsten-technoman-338504.jpg'],
+  ['path' => 'public/images/accommodation-1.jpg'],
+  ['path' => 'public/images/interior.jpg'],
+  ['path' => 'public/images/pexels-pixabay-53610.jpg'],
+  ['path' => 'public/images/pexels-maria-orlova-4946918.jpg'],
+  ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg'],
+]
+?>
 
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php") ?>
