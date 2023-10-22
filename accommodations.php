@@ -11,7 +11,7 @@
     ['path' => 'public/images/pexels-pixabay-53610.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
     ['path' => 'public/images/pexels-maria-orlova-4946918.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
     ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
   ];
 
   $count = 0;
