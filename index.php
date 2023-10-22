@@ -13,7 +13,10 @@
               <div class="sm:mr-6 lg:mr-[20%]">
                 <h1 class="font-extrabold text-[34px] sm:text-[40px] lg:text-[55px] xl:text-[64px] font-['almarai'] text-white mb-4">Bali Triangle Trip</h1>
                 <p class="text-white mb-7 md:text-lg xl:text-xl tracking-wider font-['almarai'] text-justify">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
-                <a href="" class="text-sm lg:text-base bg-[#1A7472] font-['almarai'] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
+                <div class="absolute bg-[#1A7472] px-[18px] sm:p-2.5 py-2 sm:py-2.5">
+                  <a href="" class="text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+                  <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
+                </div>
               </div>
             </div>
             <!-- w-1/2 sm:w-full -->
@@ -34,7 +37,10 @@
           <p class="text-2xl sm:text-3xl xl:text-4xl text-[#1A7472] font-['allan']">The Ultimate Exprience</p>
           <h2 class="font-extrabold text-2xl sm:text-3xl xl:text-4xl font-['almarai'] text-[#1A7472] mb-4">Explore The Island God</h2>
           <p class="text-[#283325] xl:text-xl tracking-wider font-['almarai'] mb-4">Bali's rich culture and artistic heritage are on full display during your journey. Witness captivating traditional dance performances, explore local markets brimming with handcrafted treasures, and even try your hand at Balinese painting or cooking classes.</p>
-          <a href="" class="text-sm lg:text-base bg-[#1A7472] font-['almarai'] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
+          <div class="absolute bg-[#1A7472] px-[18px] sm:p-2.5 py-2 sm:py-2.5">
+            <a href="" class="text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+            <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
+          </div>
         </div>
         <div class="hidden sm:block">
           <div class="flex justify-end">

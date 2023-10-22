@@ -33,7 +33,10 @@
           <div class="">
             <p class="font-['almarai'] font-extrabold mb-3 sm:mb-4 lg:mb-[20px] text-white sm:text-lg xl:text-xl">Logo Triangle Trip</p>
             <p class="text-sm lg:text-base tracking-wider font-['almarai'] mb-3 sm:mb-4 lg:mb-[20px] text-white">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
-            <a href="" class="text-sm lg:text-base bg-[#1A7472] font-['almarai'] font-bold px-7 p-2.5 sm:py-2 text-white">Book Now</a>
+            <div class="absolute bg-[#1A7472] px-[18px] sm:p-2.5 py-2 sm:py-2.5">
+              <a href="" class="text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+              <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
+            </div>
           </div>
           <div class="mt-7 sm:mt-0 sm:flex sm:justify-center">
             <!-- <div class="grid grid-cols-2 sm:block"> -->
@@ -47,26 +50,6 @@
                 <li><a href="" class="text-sm lg:text-base text-white  tracking-wider font-['almarai']">Profile</a></li>
               </ul>
             </div>
-            <!-- <div class="block sm:hidden">
-                <div>
-                  <p class="font-['almarai'] font-extrabold mb-3 sm:mb-4 lg:mb-[20px] text-white sm:text-lg xl:text-xl">Social Media</p>
-                  <ul>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">Facebook</a></li>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">Instagram</a></li>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">Tiktok</a></li>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">Whatsapp</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <p class="font-['almarai'] font-extrabold mt-7 mb-3 sm:mb-4 lg:mb-[20px] text-white sm:text-lg xl:text-xl">Contact Us</p>
-                  <ul>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">+62 32789217832</a></li>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">info@balitriangletrip.com</a></li>
-                    <li><a href="" class="text-sm lg:text-base text-white text-[15px] tracking-wider font-['almarai']">Jl. Rajawali</a></li>
-                  </ul>
-                </div>
-              </div> -->
-            <!-- </div> -->
           </div>
           <div class="mt-7 sm:mt-0 block sm:flex sm:justify-center">
             <div>
@@ -108,7 +91,6 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <!-- slick -->
-<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script defer>
   window.addEventListener('load', () => {

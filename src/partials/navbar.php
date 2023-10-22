@@ -3,13 +3,11 @@
   <nav id="navbar" class="bg-black/20 w-full fixed z-10">
     <div class="px-7 sm:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-20 flex justify-between items-center">
       <div>
-        <!-- <img src="../public/" alt=""> -->
         <p class="navbar-link font-['almarai'] font-extrabold text-white md:text-lg xl:text-xl">Logo Triangle Trip</p>
       </div>
       <div class="flex items-center">
         <div class="hidden lg:block">
           <ul class="flex">
-            <!--  underline-offset-4 -->
             <li class="mr-2"><a href="index.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Home</a></li>
             <li class="mr-2"><a href="accommodations.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Accommodations</a></li>
             <li class="mr-2"><a href="activities.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Activities</a></li>
@@ -17,7 +15,10 @@
             <li class="mr-9"><a href="profile.php" class="navbar-link font-['almarai'] underline-offset-4 md:text-lg xl:text-xl underline text-white">Profile</a></li>
           </ul>
         </div>
-        <a href="" class="text-xs sm:text-sm lg:text-base font-['almarai'] bg-[#1A7472] font-bold sm:px-7 sm:py-2.5 py-2 px-[18px] text-white">Book Now</a>
+        <div class="bg-[#1A7472] px-[18px] sm:px-2.5 py-2 sm:py-2.5">
+          <a href="" class="text-xs sm:text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+          <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
+        </div>
         <button id="navbar-menu-mob" class="text-white ml-3 lg:hidden"><i class="fa-solid fa-bars"></i></button>
       </div>
     </div>

@@ -11,7 +11,7 @@
           <div class="px-7 sm:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-auto pt-[115px] pb-[62px] flex items-center">
             <div class="lg:w-1/2">
               <h1 class="font-['almarai'] font-extrabold text-[34px] sm:text-[44px] lg:text-[55px] xl:text-[64px] text-white mb-4">Profile</h1>
-              <p class="tracking-wider font-['almarai'] text-white mb-7 xl:text-xl text-justify">Get ready for exhilarating adventures as you explore Bali's diverse landscapes. From surfing the legendary waves of Uluwatu to trekking through emerald rice terraces in Ubud and snorkeling amidst vibrant coral reefs, our curated activities promise an adrenaline rush and deep connection with nature.</p>
+              <p class="tracking-wider font-['almarai'] text-white mb-7 text-[15px] text-justify">Get ready for exhilarating adventures as you explore Bali's diverse landscapes. From surfing the legendary waves of Uluwatu to trekking through emerald rice terraces in Ubud and snorkeling amidst vibrant coral reefs, our curated activities promise an adrenaline rush and deep connection with nature.</p>
             </div>
           </div>
         </div>

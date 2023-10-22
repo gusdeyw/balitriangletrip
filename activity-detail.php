@@ -3,7 +3,9 @@
 <?php include("src/partials/head.php") ?>
 
 <body class="bg-[#F6F6F6]">
-  <?php include("src/partials/navbar.php") ?>
+  <?php include("src/partials/navbar.php");
+  $brds = ['Room', 'Villa Alaya']
+  ?>
   <main>
     <section>
       <div class="cs-banner-bg relative w-full bg-cover bg-center" style="background-image: url(public/images/pexels-asad-photo-maldives-3155666.jpg)">
@@ -11,7 +13,17 @@
           <div class="px-7 sm:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-auto pt-[115px] pb-[62px] flex items-center">
             <div class="lg:w-1/2">
               <h1 class="font-['almarai'] font-extrabold text-[34px] sm:text-[44px] lg:text-[55px] xl:text-[64px] text-white mb-4">Accommodation</h1>
-              <p class="tracking-wider font-['almarai'] text-white mb-7 md:text-base xl:text-xl text-justify">Room / Villa Alaya</p>
+              <ul class="flex">
+                <?php
+                $count = 0;
+                foreach ($brds as $brd) : ?>
+                  <?php if ($count > 0) : ?>
+                    <li class="mr-1.5 ml-1.5 tracking-wider font-['almarai'] text-white mb-7 text-[15px] text-justify">/</li>
+                  <?php endif; ?>
+                  <li class="tracking-wider font-['almarai'] text-white mb-7 text-[15px] text-justify"><?= $brd; ?></li>
+                <?php $count++;
+                endforeach; ?>
+              </ul>
             </div>
           </div>
         </div>
@@ -63,66 +75,46 @@
         <div class="py-8">
           <div class="sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:flex gap-2 mb-2">
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[12%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Houses</p>
-              </div>
+              <i class="fa-solid fa-house mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Houses</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[18%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Superb breakfast</p>
-              </div>
+              <i class="fa-solid fa-mug-saucer mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Superb breakfast</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[22%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Outdoor swimming pool</p>
-              </div>
+              <i class="fa-solid fa-person-swimming mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Outdoor swimming pool</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[15%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Free parking</p>
-              </div>
+              <i class="fa-solid fa-square-parking mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Free parking</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[15%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Restaurant</p>
-              </div>
+              <i class="fa-solid fa-utensils mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Restaurant</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 xl:w-[18%]">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Airport shuttle</p>
-              </div>
+              <i class="fa-solid fa-van-shuttle mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Airport shuttle</p>
             </div>
           </div>
           <div class="sm:grid sm:grid-cols-2 lg:flex gap-2">
             <div class="border p-3 flex mb-2 sm:mb-0 lg:w-[23%] xl:w-full">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Balcony</p>
-              </div>
+              <i class="fa-solid fa-shop mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Balcony</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 lg:w-[23%] xl:w-full">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Free WiFi</p>
-              </div>
+              <i class="fa-solid fa-wifi mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Free WiFi</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 lg:w-[31%] xl:w-full">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Spa and wellness center</p>
-              </div>
+              <i class="fa-solid fa-spa mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Spa and wellness center</p>
             </div>
             <div class="border p-3 flex mb-2 sm:mb-0 lg:w-[23%] xl:w-full">
-              <i class="fa-solid fa-house"></i>
-              <div class="ml-3">
-                <p class="font-['almarai'] text-sm text-[#9DA1A2]">Hot tub</p>
-              </div>
+              <i class="fa-solid fa-bath mr-3 text-[#9DA1A2]"></i>
+              <p class="font-['almarai'] text-sm text-[#9DA1A2]">Hot tub</p>
             </div>
           </div>
         </div>
