@@ -3,7 +3,7 @@
   <nav id="navbar" class="bg-black/20 w-full fixed z-10">
     <div class="px-7 sm:px-[50px] lg:px-[80px] xl:px-[125px] 2xl:px-[225px] h-20 flex justify-between items-center">
       <div>
-        <p class="navbar-link font-['almarai'] font-extrabold text-white md:text-lg xl:text-xl">Logo Triangle Trip</p>
+        <p class="navbar-link font-['almarai'] font-extrabold text-white md:text-lg xl:text-xl">Bali Triangle Trip</p>
       </div>
       <div class="flex items-center">
         <div class="hidden lg:block">
@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="bg-[#1A7472] px-[18px] sm:px-2.5 py-2 sm:py-2.5">
-          <a href="" class="text-xs sm:text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+          <a href="accommodations.php" class="text-xs sm:text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
           <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
         </div>
         <button id="navbar-menu-mob" class="text-white ml-3 lg:hidden"><i class="fa-solid fa-bars"></i></button>

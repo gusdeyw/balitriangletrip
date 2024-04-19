@@ -5,13 +5,13 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php");
   $imgs = [
-    ['path' => 'public/images/pexels-thorsten-technoman-338504.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/accommodation-1.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/interior.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-pixabay-53610.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-maria-orlova-4946918.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    ['path' => 'public/images/room/1.jpg', 'name' => 'Puri Padi, Ubud', 'price' => '$700', 'desc' => 'Tucked away, a 10-minute walk from the famous Monkey Forest and central Ubud, this Balinese-style hotel offers rooms with private balconies. Puri-Padi Hotel is surrounded by tropical gardens and boasts a large outdoor pool and free Wi-Fi.'],
+    // ['path' => 'public/images/accommodation-1.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/interior.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-pixabay-53610.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-maria-orlova-4946918.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
     // ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // // ['path' => 'public/images/pexels-max-rahubovskiy-7061663.jpg', 'name' => 'Alila Villa', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
   ];
 
   $count = 0;
@@ -74,7 +74,9 @@
                         </div>
                       </div>
                       <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]"><?= $img['desc'] ?></p>
+                      <a href="accommodation-detail.php">
                       <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                      </a>
                     </div>
                   </article>
                 <?php endforeach; ?>

@@ -5,12 +5,12 @@
 <body class="bg-[#F6F6F6]">
   <?php include("src/partials/navbar.php");
   $imgs = [
-    ['path' => 'public/images/pexels-helena-lopes-4453153.jpg', 'name' => 'Hikking', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-tatiana-syrikova-3932687.jpg', 'name' => 'Trekking', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-andrea-piacquadio-3771805.jpg', 'name' => 'Cycling', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-daniel-torobekov-5277705.jpg', 'name' => 'Surf', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-daniel-torobekov-6961669.jpg', 'name' => 'Diving', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
-    ['path' => 'public/images/pexels-alexandre-saraiva-carniato-1644724.jpg', 'name' => 'Surfing', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    ['path' => 'public/images/activity/1.jpg', 'name' => 'Rafting', 'price' => '$160', 'desc' => 'Welcome to our Rafting Activity, where the rush of river rapids meets the ease of online booking for your next adrenaline-packed adventure. Immerse yourself in the heart-pounding excitement of our carefully curated rafting experiences, designed for everyone from beginners seeking a thrill to seasoned experts in search of the ultimate rapids challenge.'],
+    // ['path' => 'public/images/pexels-tatiana-syrikova-3932687.jpg', 'name' => 'Trekking', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-andrea-piacquadio-3771805.jpg', 'name' => 'Cycling', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-daniel-torobekov-5277705.jpg', 'name' => 'Surf', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-daniel-torobekov-6961669.jpg', 'name' => 'Diving', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
+    // ['path' => 'public/images/pexels-alexandre-saraiva-carniato-1644724.jpg', 'name' => 'Surfing', 'price' => '$160', 'desc' => 'Alila Villas, epitomizing luxury in style, are a breathtaking haven for discerning travelers seeking the ultimate in opulence.'],
   ];
 
   $count = 0;
@@ -52,9 +52,9 @@
         <!-- w-[60%]  -->
         <div class="w-full lg:w-[75%]">
           <div class="sm:grid sm:grid-rows-3 sm:gap-[30px]">
-          <?php foreach ($groups as $group) : ?>
-            <div class="sm:grid sm:grid-cols-2 sm:gap-7 lg:mr-7">
-                  <?php foreach ($group as $img) : ?>
+            <?php foreach ($groups as $group) : ?>
+              <div class="sm:grid sm:grid-cols-2 sm:gap-7 lg:mr-7">
+                <?php foreach ($group as $img) : ?>
                   <article class="shadow-[0_4px_19px_-5px_rgba(0,0,0,0.25)] h-full">
                     <div class="bg-center bg-cover relative pt-[161px] lg:pt-[261px] 2xl:pt-[361px]" style="background-image: url('<?= $img['path']; ?>')">
                     </div>
@@ -71,17 +71,19 @@
                           <h1 class="font-['almarai'] font-bold text-lg lg:text-xl text-[#1A7472]"><?= $img['name'] ?></h1>
                         </div>
                         <div class="">
-                          <p class="font-['almarai'] font-bold text-lg lg:text-xl text-[#53581E]"><?= $img['price'] ?>/night</p>
+                          <p class="font-['almarai'] font-bold text-lg lg:text-xl text-[#53581E]"><?= $img['price'] ?>/Pax</p>
                         </div>
                       </div>
                       <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]"><?= $img['desc'] ?></p>
-                      <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                      <a href="activity-detail.php">
+                        <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
+                      </a>
                     </div>
                   </article>
                 <?php endforeach; ?>
-                </div>
-              <?php endforeach; ?>
-            </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
         </div>
         <div class="hidden lg:block md:w-[25%] relative">
           <?php include("src/partials/aside.php") ?>
