@@ -34,7 +34,7 @@
             <p class="font-['almarai'] font-extrabold mb-3 sm:mb-4 lg:mb-[20px] text-white sm:text-lg xl:text-xl">Bali Triangle Trip</p>
             <p class="text-sm lg:text-base tracking-wider font-['almarai'] mb-3 sm:mb-4 lg:mb-[20px] text-white">Welcome to the Bali Triangle Trip, your ultimate journey into the heart of Bali's enchanting paradise. Immerse yourself in a world where natural beauty, vibrant culture, and thrilling activities converge to create memories that will last a lifetime.</p>
             <div class="absolute bg-[#1A7472] px-[18px] sm:p-2.5 py-2 sm:py-2.5">
-              <a href="/accommodations.php" class="text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
+              <a href="/accommodations" class="text-sm lg:text-base font-['almarai'] font-bold text-white">Book Now</a>
               <i class="fa-solid fa-lg fa-check ml-1 text-white"></i>
             </div>
           </div>

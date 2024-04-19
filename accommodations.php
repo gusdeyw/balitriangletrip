@@ -74,7 +74,7 @@
                         </div>
                       </div>
                       <p class="font-['almarai'] mb-2 text-xs text-[#9DA1A2]"><?= $img['desc'] ?></p>
-                      <a href="accommodation-detail.php">
+                      <a href="/accommodation-detail">
                       <button class="font-['almarai'] bg-[#1A7472] py-2 px-[18px] text-white text-xs">See Details</button>
                       </a>
                     </div>

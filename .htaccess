@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^accommodations$ accommodations.php [L]
+RewriteRule ^activities$ activities.php [L]
+RewriteRule ^art-and-culture$ art-and-culture.php [L]
+RewriteRule ^profile$ profile.php [L]
+RewriteRule ^accommodation-detail$ accommodation-detail.php [L]
